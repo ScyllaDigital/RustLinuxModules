@@ -1,0 +1,12 @@
+[workspace]
+members = [ "rs-interface",  "rs-test-panic"]
+
+[workspace.dependencies]
+rs-interface = { path = "rs-interface"}
+# We need to ensure we never panic
+# no-panics-whatsoever = "0.1.0"
+
+[profile.dev]
+panic="abort"
+[profile.release]
+panic="abort"

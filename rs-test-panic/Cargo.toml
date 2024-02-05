@@ -1,0 +1,8 @@
+[package]
+name = "rs-test-panic"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+rs-interface = { path = "../rs-interface" }

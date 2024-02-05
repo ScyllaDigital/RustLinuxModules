@@ -1,0 +1,7 @@
+/target
+/c_interface/.*
+/c_interface/crs.*
+/c_interface/librs_interface.a
+/c_interface/Module.*
+/c_interface/c_interface.o
+/c_interface/modules.order
